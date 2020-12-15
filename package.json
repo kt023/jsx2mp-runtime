@@ -1,0 +1,56 @@
+{
+  "_from": "jsx2mp-runtime@^0.4.16",
+  "_id": "jsx2mp-runtime@0.4.17",
+  "_inBundle": false,
+  "_integrity": "sha1-w/J8TsisA0uhrygqQWk/LevnYGM=",
+  "_location": "/jsx2mp-runtime",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "jsx2mp-runtime@^0.4.16",
+    "name": "jsx2mp-runtime",
+    "escapedName": "jsx2mp-runtime",
+    "rawSpec": "^0.4.16",
+    "saveSpec": null,
+    "fetchSpec": "^0.4.16"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/@ali/rxpi-i18n-mtop",
+    "/miniapp-compile-config"
+  ],
+  "_resolved": "https://registry.npm.alibaba-inc.com/jsx2mp-runtime/download/jsx2mp-runtime-0.4.17.tgz",
+  "_shasum": "c3f27c4ec8ac034ba1af282a41693f2debe76063",
+  "_spec": "jsx2mp-runtime@^0.4.16",
+  "_where": "/Users/eleme/Desktop/project/rax-checkout/node_modules/miniapp-compile-config",
+  "author": {
+    "name": "Rax Team"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Runtime for jsx2mp.",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/types": "^7.8.3",
+    "cross-env": "^5.2.0",
+    "rollup": "^1.13.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-cleanup": "^3.1.1",
+    "rollup-plugin-filesize": "^6.1.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "universal-env": "^3.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "miniprogram": ".",
+  "name": "jsx2mp-runtime",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production rollup -c rollup.config.js",
+    "prepublish": "npm run build"
+  },
+  "version": "0.4.17"
+}
